@@ -1,9 +1,10 @@
 package br.com.tdstecnologia;
 
 import br.com.tdstecnologia.tiposDeClasses.*;
+import br.com.tdstecnologia.tiposDeClasses.modificadoresDeAcesso.ClasseComMembrosPrivados;
 import br.com.tdstecnologia.tiposDeClasses.modificadoresDeAcesso.ClassePublicaComMenbrosDefault;
 
-public class App {
+class App {
 
 	public static void main(String[] args) {
 		new ClassePadrao();
@@ -12,5 +13,13 @@ public class App {
 		
 		ClassePublicaComMenbrosDefault classe1;
 		classe1 = new ClassePublicaComMenbrosDefault();
+		
+		
+		ClassePadrao classePadrao = new ClassePadrao();		
+		ClasseComMembrosPrivados classePrivate = new ClasseComMembrosPrivados();		
+		
+		System.out.println(  classePadrao.descricao  );
+		// System.out.println(  classePrivate.descricao  ); // atributo descricao esta como privado
 	}
+	
 }
