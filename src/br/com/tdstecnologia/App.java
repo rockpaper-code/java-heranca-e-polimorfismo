@@ -1,6 +1,6 @@
 package br.com.tdstecnologia;
 
-import br.com.tdstecnologia.tiposDeClasses.*;
+import br.com.tdstecnologia.tiposDeClasses.ClassePadrao;
 import br.com.tdstecnologia.tiposDeClasses.modificadoresDeAcesso.ClasseComMembrosPrivados;
 import br.com.tdstecnologia.tiposDeClasses.modificadoresDeAcesso.ClassePublicaComMenbrosDefault;
 
